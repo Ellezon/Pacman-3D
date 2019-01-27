@@ -1,0 +1,2101 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     1970 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.074 seconds
+desktop: 1920x1080 75Hz; virtual: 3286x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Hard Drive\Work\University\2nd Year\Semester 1\Game AI\Pacman_stuff\PacMan\Pc version\pacman_Data\Managed\System.dll (this message is harmless)
+Creating Cardboard object
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+InvalidOperationException: Operation is not valid due to the current state of the object
+  at BaseVRDevice.GetDevice () [0x00000] in <filename unknown>:0 
+  at Cardboard.InitDevice () [0x00000] in <filename unknown>:0 
+  at Cardboard.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent(Type)
+UnityEngine.GameObject:AddComponent()
+Cardboard:get_SDK()
+CardboardEye:Start()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.OnDisable () [0x00000] in <filename unknown>:0 
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent(Type)
+UnityEngine.GameObject:AddComponent()
+Cardboard:get_SDK()
+CardboardEye:Start()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: ae0 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at CardboardHead.UpdateHead () [0x00000] in <filename unknown>:0 
+  at CardboardHead.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.UpdateState () [0x00000] in <filename unknown>:0 
+  at StereoController.OnPreCull () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.OnApplicationQuit () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
